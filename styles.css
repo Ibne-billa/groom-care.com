@@ -1,0 +1,127 @@
+html{
+    background-color: black;
+}
+html, body{
+    padding: 0px;
+    margin: 0;
+}
+.top-bar{
+    background-image: linear-gradient(black, black);
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+.bottom-bar{
+    display: flex;
+    margin-top: 0;
+    background-image:linear-gradient(black, white);
+    max-height: 10%;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+.menu li{
+    padding: 15px 30px;
+    font-size: 20px;
+}
+.menu li:hover{
+    transition: .4s;
+    color: yellow;
+    text-decoration: underline;
+}
+.add{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lined-text {
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+    text-align: center;
+    width: 50%;
+} 
+.heading{
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.container {
+    margin-top: 5%;
+    display: grid;
+    color: white;
+    grid-template-columns: auto auto auto;
+    gap: 50px 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+.container > div:hover{
+    transition: .5s;
+    border: 1px solid black;
+}
+.container > div {
+    background-color: black;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+.product{
+    display: grid;
+    margin-top: 2%;
+}
+.img:hover{
+    transition: .5s;
+    transform: scale(1.05);
+    size: 10%;
+    border-radius: 5%;
+}
+.product button{
+    width: 90%;
+    height: 90%;
+    margin-bottom: 2%;
+    color: white;
+    border: solid white;
+    background-color: transparent;
+}
+.product button:hover{
+    transition: .5s;
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+}
+.text{
+    color: grey;
+}
+.text:hover{
+    transition: .4s;
+    color: yellow;
+}
+.hello{
+    margin-top: 5%;
+}
+/*Fonts*/
+.barlow-regular {
+    font-family: "Barlow", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.text{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
